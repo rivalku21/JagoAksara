@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in closure #1 in MainTestView.body.getter:MainTestView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "percentage">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TestTwoView.updateDrawnImage():TestTwoView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "drawnImage">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #6 in MainTestView.body.getter:MainTestView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "questions">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in closure #3 in closure #1 in closure #1 in closure #1 in closure #1 in closure #1 in PopUpTrue.body.getter:PopUp.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "questionCount">
+            </PersistentString>
+            <PersistentString
+               value = "Double(7/9)">
+            </PersistentString>
+            <PersistentString
+               value = "percentage">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in ResultView.body.getter:ResultView.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

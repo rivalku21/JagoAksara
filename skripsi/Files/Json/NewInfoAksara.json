@@ -1,0 +1,376 @@
+[
+  {
+    "section": 1,
+    "title": "Carakan I bagian 1",
+    "description": "Carakan (abjad jawa) yang digunakan di dalam ejaan bahasa jawa pada dasarnya terdiri dari 20 aksara pokok yang bersifat silabik (kesukukataan).",
+    "description2": "Pada bagian ini kita akan mempelajari aksara Ha, Na, Ca, Ra dan Ka",
+    "note": "",
+    "note2": "",
+    "text": [
+      {
+        "character": "a",
+        "name": "ha",
+        "description": "hari"
+      },
+      {
+        "character": "n",
+        "name": "na",
+        "description": "nakal"
+      },
+      {
+        "character": "c",
+        "name": "ca",
+        "description": "camat"
+      },
+      {
+        "character": "r",
+        "name": "ra",
+        "description": "racak"
+      },
+      {
+        "character": "k",
+        "name": "ka",
+        "description": "kapas"
+      }
+    ]
+  },
+  {
+    "section": 2,
+    "title": "Carakan I bagian 2",
+    "description": "Carakan (abjad jawa) yang digunakan di dalam ejaan bahasa jawa pada dasarnya terdiri dari 20 aksara pokok yang bersifat silabik (kesukukataan).",
+    "description2": "Pada bagian ini kita akan mempelajari aksara Da, Ta, Sa, Wa dan La",
+    "note": "",
+    "note2": "",
+    "text": [
+      {
+        "character": "f",
+        "name": "da",
+        "description": "dalan"
+      },
+      {
+        "character": "t",
+        "name": "ta",
+        "description": "tapak"
+      },
+      {
+        "character": "s",
+        "name": "sa",
+        "description": "sanak"
+      },
+      {
+        "character": "w",
+        "name": "wa",
+        "description": "watuk"
+      },
+      {
+        "character": "l",
+        "name": "la",
+        "description": "lanang"
+      }
+    ]
+  },
+  {
+    "section": 3,
+    "title": "Carakan I bagian 3",
+    "description": "Carakan (abjad jawa) yang digunakan di dalam ejaan bahasa jawa pada dasarnya terdiri dari 20 aksara pokok yang bersifat silabik (kesukukataan).",
+    "description2": "Pada bagian ini kita akan mempelajari aksara Pa, Dha, Ja, Ya dan Nya",
+    "note": "",
+    "note2": "",
+    "text": [
+      {
+        "character": "p",
+        "name": "pa",
+        "description": "panen"
+      },
+      {
+        "character": "d",
+        "name": "dha",
+        "description": "dhandhang"
+      },
+      {
+        "character": "j",
+        "name": "ja",
+        "description": "jajal"
+      },
+      {
+        "character": "y",
+        "name": "ya",
+        "description": "yakin"
+      },
+      {
+        "character": "v",
+        "name": "nya",
+        "description": "nyawa"
+      }
+    ]
+  },
+  {
+    "section": 4,
+    "title": "Carakan I bagian 4",
+    "description": "Carakan (abjad jawa) yang digunakan di dalam ejaan bahasa jawa pada dasarnya terdiri dari 20 aksara pokok yang bersifat silabik (kesukukataan).",
+    "description2": "Pada bagian ini kita akan mempelajari aksara Ma, Ga, Ba, Tha dan Nga",
+    "note": "",
+    "note2": "",
+    "text": [
+      {
+        "character": "m",
+        "name": "ma",
+        "description": "manuk"
+      },
+      {
+        "character": "g",
+        "name": "ga",
+        "description": "gagak"
+      },
+      {
+        "character": "b",
+        "name": "ba",
+        "description": "bakul"
+      },
+      {
+        "character": "q",
+        "name": "tha",
+        "description": "thak-thakan"
+      },
+      {
+        "character": "z",
+        "name": "nga",
+        "description": "ngajak"
+      }
+    ]
+  },
+  {
+    "section": 5,
+    "title": "Sandhangan Swara",
+    "description": "Sandhangan adalah tanda diakritik yang dipakai sebagai pengubah bunyi di dalam tulisan jawa",
+    "description2": "Pada bagian ini kita akan mempelajari sandhangan vokal -e, -i, -u, -è dan -o",
+    "note": "Penggunaan sandhangan perlu dilengkapi dengan carakan",
+    "note2": "Penggunaan Ha dengan sandhangan bisa dibaca vokalnya saja tergantung kata",
+    "text": [
+      {
+        "character": "e",
+        "name": "-e (pepet)",
+        "description": "enam",
+        "example": "aenm\\"
+      },
+      {
+        "character": "i",
+        "name": "-i (wulu)",
+        "description": "hidup",
+        "example": "aifup\\"
+      },
+      {
+        "character": "u",
+        "name": "-u (suku)",
+        "description": "hutan",
+        "example": "autn\\"
+      },
+      {
+        "character": "[",
+        "name": "-è (taling)",
+        "description": "hewan",
+        "example": "[awn\\"
+      },
+      {
+        "character": "[o",
+        "name": "-o (taling tarung)",
+        "description": "orang",
+        "example": "[aor="
+      }
+    ]
+  },
+  {
+    "section": 6,
+    "title": "Sandhangan Panyigeg",
+    "description": "Sandhangan Panyigeg adalah sandhangan penanda konsonan penutup suku kata",
+    "description2": "Pada bagian ini kita akan mempelajari sandhangan panyigeg -h, -r, -ng dan *aksara mati",
+    "note": "Penggunaan sandhangan perlu dilengkapi dengan carakan",
+    "note2": "*aksara mati merupakan huruf konsonan pada carakan",
+    "text": [
+      {
+        "character": "h",
+        "name": "-h (wignyan)",
+        "description": "kalah",
+        "example": "klh"
+      },
+      {
+        "character": "/",
+        "name": "-r (layar)",
+        "description": "pasar",
+        "example": "ps/"
+      },
+      {
+        "character": "=",
+        "name": "-ng (cecek)",
+        "description": "bawang",
+        "example": "bw="
+      },
+      {
+        "character": "\\",
+        "name": "- (pangkon)",
+        "description": "tangan",
+        "example": "tzn\\"
+      }
+    ]
+  },
+  {
+    "section": 7,
+    "title": "Carakan II Aksara Pasangan 1",
+    "description": "Aksara pasangan dari carakan merupakan aksara yang berfungsi untuk menghubungkan suku kata tertutup konsonan dengan suku kata berikutnya, kecuali suku kata yang tertutup sandhangan panyigeg",
+    "description2": "Pada bagian ini kita akan mempelajari pasangan Ha, Na, Ca, Ra dan Ka",
+    "note": "",
+    "note2": "",
+    "text": [
+      {
+        "character": "H",
+        "name": "ha",
+        "description": "aben ajeng",
+        "example": "abenHje="
+      },
+      {
+        "character": "N",
+        "name": "na",
+        "description": "nanem nanas",
+        "example": "nnemNns\\"
+      },
+      {
+        "character": "C",
+        "name": "ca",
+        "description": "calon camat",
+        "example": "c[lonCmt\\"
+      },
+      {
+        "character": "R",
+        "name": "ra",
+        "description": "racak-racak",
+        "example": "rckRck\\"
+      },
+      {
+        "character": "K",
+        "name": "ka",
+        "description": "kapuk kapas",
+        "example": "kpukKps\\"
+      }
+    ]
+  },
+  {
+    "section": 8,
+    "title": "Carakan II Aksara Pasangan 2",
+    "description": "Aksara pasangan dari carakan merupakan aksara yang berfungsi untuk menghubungkan suku kata tertutup konsonan dengan suku kata berikutnya, kecuali suku kata yang tertutup sandhangan panyigeg",
+    "description2": "Pada bagian ini kita akan mempelajari pasangan Da, Ta, Sa, Wa dan La",
+    "note": "",
+    "note2": "",
+    "text": [
+      {
+        "character": "F",
+        "name": "da",
+        "description": "dalan-dalan",
+        "example": "flnFln\\"
+      },
+      {
+        "character": "T",
+        "name": "ta",
+        "description": "tapak tilas",
+        "example": "tpkTls\\"
+      },
+      {
+        "character": "S",
+        "name": "sa",
+        "description": "sanak sedulur",
+        "example": "snkSefulu/"
+      },
+      {
+        "character": "W",
+        "name": "wa",
+        "description": "watuk-watuk",
+        "example": "wtukWtuk\\"
+      },
+      {
+        "character": "L",
+        "name": "la",
+        "description": "anak lanang",
+        "example": "ankLn="
+      }
+    ]
+  },
+  {
+    "section": 9,
+    "title": "Carakan II Aksara Pasangan 3",
+    "description": "Aksara pasangan dari carakan merupakan aksara yang berfungsi untuk menghubungkan suku kata tertutup konsonan dengan suku kata berikutnya, kecuali suku kata yang tertutup sandhangan panyigeg",
+    "description2": "Pada bagian ini kita akan mempelajari pasangan Pa, Dha, Ja, Ya dan Nya",
+    "note": "",
+    "note2": "",
+    "text": [
+      {
+        "character": "P",
+        "name": "pa",
+        "description": "panen pari",
+        "example": "p[nnPri"
+      },
+      {
+        "character": "D",
+        "name": "dha",
+        "description": "dhandhang",
+        "example": "dnD="
+      },
+      {
+        "character": "J",
+        "name": "ja",
+        "description": "jajal-jajal",
+        "example": "jjlJjl\\"
+      },
+      {
+        "character": "Y",
+        "name": "ya",
+        "description": "yakin yekti",
+        "example": "ykinYekTi"
+      },
+      {
+        "character": "V",
+        "name": "nya",
+        "description": "nyabut nyawa",
+        "example": "vbutVw"
+      }
+    ]
+  },
+  {
+    "section": 10,
+    "title": "Carakan II Aksara Pasangan 4",
+    "description": "Aksara pasangan dari carakan merupakan aksara yang berfungsi untuk menghubungkan suku kata tertutup konsonan dengan suku kata berikutnya, kecuali suku kata yang tertutup sandhangan panyigeg",
+    "description2": "Pada bagian ini kita akan mempelajari pasangan Ma, Ga, Ba, Tha dan Nga",
+    "note": "",
+    "note2": "",
+    "text": [
+      {
+        "character": "M",
+        "name": "ma",
+        "description": "manuk manyar",
+        "example": "mnukMv/"
+      },
+      {
+        "character": "G",
+        "name": "ga",
+        "description": "gagak galak",
+        "example": "ggkGlk\\"
+      },
+      {
+        "character": "B",
+        "name": "ba",
+        "description": "bakul bathik",
+        "example": "bkulBqik\\"
+      },
+      {
+        "character": "Q",
+        "name": "tha",
+        "description": "thak-thakan",
+        "example": "qkQkn\\"
+      },
+      {
+        "character": "Z",
+        "name": "nga",
+        "description": "ngajak ngaso",
+        "example": "zjkZ[so"
+      }
+    ]
+  }
+]

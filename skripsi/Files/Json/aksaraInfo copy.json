@@ -1,0 +1,102 @@
+[
+  {
+    "character": "a",
+    "name": "ha",
+    "description": "hari"
+  },
+  {
+    "character": "n",
+    "name": "na",
+    "description": "nakal"
+  },
+  {
+    "character": "c",
+    "name": "ca",
+    "description": "camat"
+  },
+  {
+    "character": "r",
+    "name": "ra",
+    "description": "racak"
+  },
+  {
+    "character": "k",
+    "name": "ka",
+    "description": "kapas"
+  },
+  {
+    "character": "f",
+    "name": "da",
+    "description": "dalan"
+  },
+  {
+    "character": "t",
+    "name": "ta",
+    "description": "tapak"
+  },
+  {
+    "character": "s",
+    "name": "sa",
+    "description": "sanak"
+  },
+  {
+    "character": "w",
+    "name": "wa",
+    "description": "watuk"
+  },
+  {
+    "character": "l",
+    "name": "la",
+    "description": "lanang"
+  },
+  {
+    "character": "p",
+    "name": "pa",
+    "description": "panen"
+  },
+  {
+    "character": "d",
+    "name": "dha",
+    "description": "dhandhang"
+  },
+  {
+    "character": "j",
+    "name": "ja",
+    "description": "jajal"
+  },
+  {
+    "character": "y",
+    "name": "ya",
+    "description": "yakin"
+  },
+  {
+    "character": "v",
+    "name": "nya",
+    "description": "nyawa"
+  },
+  {
+    "character": "m",
+    "name": "ma",
+    "description": "manuk"
+  },
+  {
+    "character": "g",
+    "name": "ga",
+    "description": "gagak"
+  },
+  {
+    "character": "b",
+    "name": "ba",
+    "description": "bakul"
+  },
+  {
+    "character": "q",
+    "name": "tha",
+    "description": "thak-thakan"
+  },
+  {
+    "character": "z",
+    "name": "nga",
+    "description": "ngajak"
+  }
+]

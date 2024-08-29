@@ -1,0 +1,1240 @@
+[
+  {
+    "level": 1,
+    "character": "a",
+    "name": "ha",
+    "answer": [
+      "ha",
+      "na",
+      "ca",
+      "ra",
+      "ka"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "n",
+    "name": "na",
+    "answer": [
+      "ha",
+      "na",
+      "ca",
+      "ra",
+      "ka"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "c",
+    "name": "ca",
+    "answer": [
+      "ha",
+      "na",
+      "ca",
+      "ra",
+      "ka"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "r",
+    "name": "ra",
+    "answer": [
+      "ha",
+      "na",
+      "ca",
+      "ra",
+      "ka"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "k",
+    "name": "ka",
+    "answer": [
+      "ha",
+      "na",
+      "ca",
+      "ra",
+      "ka"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "f",
+    "name": "da",
+    "answer": [
+      "da",
+      "ta",
+      "sa",
+      "wa",
+      "la"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "t",
+    "name": "ta",
+    "answer": [
+      "da",
+      "ta",
+      "sa",
+      "wa",
+      "la"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "s",
+    "name": "sa",
+    "answer": [
+      "da",
+      "ta",
+      "sa",
+      "wa",
+      "la"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "w",
+    "name": "wa",
+    "answer": [
+      "da",
+      "ta",
+      "sa",
+      "wa",
+      "la"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "l",
+    "name": "la",
+    "answer": [
+      "da",
+      "ta",
+      "sa",
+      "wa",
+      "la"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "p",
+    "name": "pa",
+    "answer": [
+      "pa",
+      "dha",
+      "ja",
+      "ya",
+      "nya"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "d",
+    "name": "dha",
+    "answer": [
+      "pa",
+      "dha",
+      "ja",
+      "ya",
+      "nya"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "j",
+    "name": "ja",
+    "answer": [
+      "pa",
+      "dha",
+      "ja",
+      "ya",
+      "nya"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "y",
+    "name": "ya",
+    "answer": [
+      "pa",
+      "dha",
+      "ja",
+      "ya",
+      "nya"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "v",
+    "name": "nya",
+    "answer": [
+      "pa",
+      "dha",
+      "ja",
+      "ya",
+      "nya"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "m",
+    "name": "ma",
+    "answer": [
+      "ma",
+      "ga",
+      "ba",
+      "tha",
+      "nga"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "g",
+    "name": "ga",
+    "answer": [
+      "ma",
+      "ga",
+      "ba",
+      "tha",
+      "nga"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "b",
+    "name": "ba",
+    "answer": [
+      "ma",
+      "ga",
+      "ba",
+      "tha",
+      "nga"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "q",
+    "name": "tha",
+    "answer": [
+      "ma",
+      "ga",
+      "ba",
+      "tha",
+      "nga"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "z",
+    "name": "nga",
+    "answer": [
+      "ma",
+      "ga",
+      "ba",
+      "tha",
+      "nga"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "e",
+    "name": "e",
+    "answer": [
+      "e",
+      "i",
+      "u",
+      "è",
+      "o"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "i",
+    "name": "i",
+    "answer": [
+      "e",
+      "i",
+      "u",
+      "è",
+      "o"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "u",
+    "name": "u",
+    "answer": [
+      "e",
+      "i",
+      "u",
+      "è",
+      "o"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "[",
+    "name": "è",
+    "answer": [
+      "e",
+      "i",
+      "u",
+      "è",
+      "o"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "[o",
+    "name": "o",
+    "answer": [
+      "e",
+      "i",
+      "u",
+      "è",
+      "o"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "h",
+    "name": "wignyan",
+    "answer": [
+      "wignyan",
+      "layar",
+      "cecek",
+      "pangkon"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "/",
+    "name": "layar",
+    "answer": [
+      "wignyan",
+      "layar",
+      "cecek",
+      "pangkon"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "=",
+    "name": "cecek",
+    "answer": [
+      "wignyan",
+      "layar",
+      "cecek",
+      "pangkon"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "\\",
+    "name": "pangkon",
+    "answer": [
+      "wignyan",
+      "layar",
+      "cecek",
+      "pangkon"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "H",
+    "name": "ha",
+    "answer": [
+      "ha",
+      "na",
+      "ca",
+      "ra",
+      "ka"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "N",
+    "name": "na",
+    "answer": [
+      "ha",
+      "na",
+      "ca",
+      "ra",
+      "ka"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "C",
+    "name": "ca",
+    "answer": [
+      "ha",
+      "na",
+      "ca",
+      "ra",
+      "ka"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "R",
+    "name": "ra",
+    "answer": [
+      "ha",
+      "na",
+      "ca",
+      "ra",
+      "ka"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "K",
+    "name": "ka",
+    "answer": [
+      "ha",
+      "na",
+      "ca",
+      "ra",
+      "ka"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "F",
+    "name": "da",
+    "answer": [
+      "da",
+      "ta",
+      "sa",
+      "wa",
+      "la"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "T",
+    "name": "ta",
+    "answer": [
+      "da",
+      "ta",
+      "sa",
+      "wa",
+      "la"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "S",
+    "name": "sa",
+    "answer": [
+      "da",
+      "ta",
+      "sa",
+      "wa",
+      "la"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "W",
+    "name": "wa",
+    "answer": [
+      "da",
+      "ta",
+      "sa",
+      "wa",
+      "la"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "L",
+    "name": "la",
+    "answer": [
+      "da",
+      "ta",
+      "sa",
+      "wa",
+      "la"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "P",
+    "name": "pa",
+    "answer": [
+      "pa",
+      "dha",
+      "ja",
+      "ya",
+      "nya"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "D",
+    "name": "dha",
+    "answer": [
+      "pa",
+      "dha",
+      "ja",
+      "ya",
+      "nya"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "J",
+    "name": "ja",
+    "answer": [
+      "pa",
+      "dha",
+      "ja",
+      "ya",
+      "nya"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "Y",
+    "name": "ya",
+    "answer": [
+      "pa",
+      "dha",
+      "ja",
+      "ya",
+      "nya"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "V",
+    "name": "nya",
+    "answer": [
+      "pa",
+      "dha",
+      "ja",
+      "ya",
+      "nya"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "M",
+    "name": "ma",
+    "answer": [
+      "ma",
+      "ga",
+      "ba",
+      "tha",
+      "nga"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "G",
+    "name": "ga",
+    "answer": [
+      "ma",
+      "ga",
+      "ba",
+      "tha",
+      "nga"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "B",
+    "name": "ba",
+    "answer": [
+      "ma",
+      "ga",
+      "ba",
+      "tha",
+      "nga"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "Q",
+    "name": "tha",
+    "answer": [
+      "ma",
+      "ga",
+      "ba",
+      "tha",
+      "nga"
+    ]
+  },
+  {
+    "level": 1,
+    "character": "Z",
+    "name": "nga",
+    "answer": [
+      "ma",
+      "ga",
+      "ba",
+      "tha",
+      "nga"
+    ]
+  },
+  {
+    "level": 2,
+    "character": "a",
+    "name": "ha",
+    "answer": [
+        "c",
+        "b"
+    ]
+  },
+  {
+    "level": 2,
+    "character": "n",
+    "name": "na",
+    "answer": [
+        "b",
+        "e"
+    ]
+  },
+  {
+    "level": 2,
+    "character": "c",
+    "name": "ca",
+    "answer": [
+        "f",
+        "ka"
+    ]
+  },
+  {
+    "level": 2,
+    "character": "r",
+    "name": "ra",
+    "answer": [
+        "a",
+        "b"
+    ]
+  },
+  {
+    "level": 2,
+    "character": "k",
+    "name": "ka",
+    "answer": [
+        "b",
+        "e",
+        "b"
+    ]
+  },
+  {
+    "level": 2,
+    "character": "f",
+    "name": "da",
+    "answer": [
+        "tu"
+    ]
+  },
+  {
+    "level": 2,
+    "character": "t",
+    "name": "ta",
+    "answer": [
+        "g",
+        "b"
+    ]
+  },
+  {
+    "level": 2,
+    "character": "s",
+    "name": "sa",
+    "answer": [
+        "ut"
+    ]
+  },
+  {
+    "level": 2,
+    "character": "w",
+    "name": "wa",
+    "answer": [
+        "j",
+        "ka"
+    ]
+  },
+  {
+    "level": 2,
+    "character": "l",
+    "name": "la",
+    "answer": [
+        "b",
+        "c"
+    ]
+  },
+  {
+    "level": 2,
+    "character": "p",
+    "name": "pa",
+    "answer": [
+        "c"
+    ]
+  },
+  {
+    "level": 2,
+    "character": "d",
+    "name": "dha",
+    "answer": [
+        "l",
+        "m",
+        "k"
+    ]
+  },
+  {
+    "level": 2,
+    "character": "j",
+    "name": "ja",
+    "answer": [
+        "q",
+        "",
+        "s"
+    ]
+  },
+  {
+    "level": 2,
+    "character": "y",
+    "name": "ya",
+    "answer": [
+        "vcut"
+    ]
+  },
+  {
+    "level": 2,
+    "character": "v",
+    "name": "nya",
+    "answer": [
+        "d",
+        "h",
+        "b",
+        "b"
+    ]
+  },
+  {
+    "level": 2,
+    "character": "m",
+    "name": "ma",
+    "answer": [
+        "n",
+        "o",
+        "p"
+    ]
+  },
+  {
+    "level": 2,
+    "character": "g",
+    "name": "ga",
+    "answer": [
+        "a",
+        "b",
+        "b"
+    ]
+  },
+  {
+    "level": 2,
+    "character": "b",
+    "name": "ba",
+    "answer": [
+        "d",
+        "h",
+        "b"
+    ]
+  },
+  {
+    "level": 2,
+    "character": "q",
+    "name": "tha",
+    "answer": [
+        "i",
+        "h"
+    ]
+  },
+  {
+    "level": 2,
+    "character": "z",
+    "name": "nga",
+    "answer": [
+        "d",
+        "h"
+    ]
+  },
+  {
+    "level": 3,
+    "character": "e",
+    "name": "ae",
+    "latin": "he",
+    "answer": [
+      "a",
+      "n",
+      "c",
+      "r",
+      "k",
+      "e",
+      "i",
+      "u",
+    ]
+  },
+  {
+    "level": 3,
+    "character": "i",
+    "name": "ci",
+    "latin": "ci",
+    "answer": [
+      "a",
+      "n",
+      "c",
+      "r",
+      "k",
+      "e",
+      "i",
+      "u",
+    ]
+  },
+  {
+    "level": 3,
+    "character": "u",
+    "name": "ru",
+    "latin": "ru",
+    "answer": [
+      "a",
+      "n",
+      "c",
+      "r",
+      "k",
+      "e",
+      "i",
+      "u",
+    ]
+  },
+  {
+    "level": 3,
+    "character": "[",
+    "name": "[k",
+    "latin": "kè",
+    "answer": [
+      "a",
+      "n",
+      "c",
+      "r",
+      "k",
+      "e",
+      "i",
+      "u"
+    ]
+  },
+  {
+    "level": 3,
+    "character": "h",
+    "name": "gh",
+    "latin": "gah",
+    "answer": [
+      "g",
+      "h",
+      "i",
+      "k",
+      "e",
+      "m",
+      "u",
+      "r"
+    ]
+  },
+  {
+    "level": 3,
+    "character": "/",
+    "name": "y/",
+    "latin": "yar",
+    "answer": [
+      "y",
+      "/",
+      "i",
+      "k",
+      "l",
+      "m",
+      "u",
+      "w"
+    ]
+  },
+  {
+    "level": 3,
+    "character": "=",
+    "name": "w=",
+    "latin": "wang",
+    "answer": [
+      "w",
+      "=",
+      "[",
+      "f",
+      "e",
+      "m",
+      "z",
+      "j"
+    ]
+  },
+  {
+    "level": 3,
+    "character": "\\",
+    "name": "zn\\",
+    "latin": "ngan",
+    "answer": [
+      "z",
+      "n",
+      "\\",
+      "k",
+      "e",
+      "i",
+      "d",
+      "a"
+    ]
+  },
+  {
+      "level": 3,
+      "character": "H",
+      "name": "a[rkH[rk\\",
+      "latin": "arek arek",
+      "answer": [
+        "a",
+        "r",
+        "[",
+        "k",
+        "H",
+        "r",
+        "[",
+        "k",
+        "\\"
+      ]
+    },
+    {
+      "level": 3,
+      "character": "N",
+      "name": "nklNkl\\",
+      "latin": "nakal nakal",
+      "answer": [
+        "n",
+        "k",
+        "l",
+        "N",
+        "k",
+        "l",
+        "w",
+        "i",
+        "\\"
+      ]
+    },
+    {
+      "level": 3,
+      "character": "C",
+      "name": "cepkCepk\\",
+      "latin": "cepak cepak",
+      "answer": [
+        "c",
+        "e",
+        "p",
+        "k",
+        "C",
+        "e",
+        "p",
+        "k",
+        "\\"
+      ]
+    },
+    {
+      "level": 3,
+      "character": "R",
+      "name": "rgfRbi",
+      "latin": "ragad rabi",
+      "answer": [
+        "r",
+        "g",
+        "f",
+        "R",
+        "b",
+        "i",
+        "[",
+        "e",
+        "\\"
+      ]
+    },
+    {
+      "level": 3,
+      "character": "K",
+      "name": "kwkKwk\\",
+      "latin": "kawak kawak",
+      "answer": [
+        "k",
+        "w",
+        "k",
+        "K",
+        "w",
+        "k",
+        "i",
+        "u",
+        "\\"
+      ]
+    },
+    {
+      "level": 3,
+      "character": "F",
+      "name": "f[fosFmel\\",
+      "latin": "dados damel",
+      "answer": [
+        "f",
+        "[o",
+        "f",
+        "s",
+        "F",
+        "m",
+        "e",
+        "l",
+        "\\"
+      ]
+    },
+    {
+      "level": 3,
+      "character": "T",
+      "name": "tbetTtu",
+      "latin": "tabet tatu",
+      "answer": [
+        "t",
+        "b",
+        "r",
+        "t",
+        "T",
+        "t",
+        "u",
+        "d",
+        "q"
+      ]
+    },
+    {
+      "level": 3,
+      "character": "S",
+      "name": "sbenSsi",
+      "latin": "saben sasi",
+      "answer": [
+        "s",
+        "b",
+        "e",
+        "n",
+        "S",
+        "S",
+        "i",
+        "u",
+        "\\"
+      ]
+    },
+    {
+      "level": 3,
+      "character": "W",
+      "name": "wsisWicr",
+      "latin": "wasis wicara",
+      "answer": [
+        "w",
+        "s",
+        "i",
+        "s",
+        "W",
+        "i",
+        "c",
+        "r",
+        "["
+      ]
+    },
+    {
+      "level": 3,
+      "character": "L",
+      "name": "lmtLmt\\",
+      "latin": "lamat lamat",
+      "answer": [
+        "l",
+        "m",
+        "t",
+        "L",
+        "m",
+        "t",
+        "c",
+        "i",
+        "\\"
+      ]
+    },
+    {
+      "level": 3,
+      "character": "P",
+      "name": "pnsPns\\",
+      "latin": "panas panas",
+      "answer": [
+        "p",
+        "n",
+        "s",
+        "P",
+        "n",
+        "s",
+        "g",
+        "v",
+        "\\"
+      ]
+    },
+    {
+      "level": 3,
+      "character": "D",
+      "name": "dwulDwul\\",
+      "latin": "dhawul dhawul",
+      "answer": [
+        "d",
+        "w",
+        "u",
+        "l",
+        "D",
+        "W",
+        "u",
+        "l",
+        "\\"
+      ]
+    },
+    {
+      "level": 3,
+      "character": "J",
+      "name": "j=gelJgu=",
+      "latin": "janggel jagung",
+      "answer": [
+        "j",
+        "=",
+        "g",
+        "e",
+        "l",
+        "J",
+        "g",
+        "u",
+        "="
+      ]
+    },
+    {
+      "level": 3,
+      "character": "Y",
+      "name": "ykutYsn\\",
+      "latin": "yakut yasan",
+      "answer": [
+        "y",
+        "k",
+        "u",
+        "t",
+        "Y",
+        "s",
+        "n",
+        "\\",
+        "="
+      ]
+    },
+    {
+      "level": 3,
+      "character": "V",
+      "name": "vbutVw",
+      "latin": "nyabut nyawa",
+      "answer": [
+        "v",
+        "b",
+        "u",
+        "t",
+        "V",
+        "w",
+        "r",
+        "\\",
+        "i"
+      ]
+    },
+    {
+      "level": 3,
+      "character": "M",
+      "name": "m=gutM=gut\\",
+      "latin": "manggut manggut",
+      "answer": [
+        "m",
+        "=",
+        "g",
+        "u",
+        "t",
+        "M",
+        "=",
+        "g",
+        "u",
+        "t",
+        "\\"
+      ]
+    },
+    {
+      "level": 3,
+      "character": "G",
+      "name": "ggpGgp\\",
+      "latin": "gagap gagap",
+      "answer": [
+        "g",
+        "g",
+        "p",
+        "G",
+        "g",
+        "p",
+        "u",
+        "H",
+        "\\"
+      ]
+    },
+    {
+      "level": 3,
+      "character": "B",
+      "name": "blBln\\",
+      "latin": "bal balan",
+      "answer": [
+        "b",
+        "l",
+        "B",
+        "l",
+        "n",
+        "R",
+        "S",
+        "H",
+        "\\"
+      ]
+    },
+    {
+      "level": 3,
+      "character": "Q",
+      "name": "qkQkn\\",
+      "latin": "thak thakan",
+      "answer": [
+        "q",
+        "k",
+        "Q",
+        "k",
+        "n",
+        "P",
+        "B",
+        "i",
+        "\\"
+      ]
+    },
+    {
+      "level": 3,
+      "character": "Z",
+      "name": "zdegZdeg\\",
+      "latin": "ngadeg ngadeg",
+      "answer": [
+        "z",
+        "d",
+        "e",
+        "g",
+        "Z",
+        "d",
+        "e",
+        "g",
+        "\\"
+      ]
+    }
+]

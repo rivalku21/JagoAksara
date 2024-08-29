@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		460DE7DE2B43FACD00497DE7 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460DE7DD2B43FACD00497DE7 /* InfoView.swift */; };
+		460DE7E12B44087300497DE7 /* TestOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460DE7E02B44087300497DE7 /* TestOneView.swift */; };
+		460DE7E42B44F61900497DE7 /* TestTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460DE7E32B44F61900497DE7 /* TestTwoView.swift */; };
+		460DE7E62B44F63700497DE7 /* ChartBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460DE7E52B44F63700497DE7 /* ChartBar.swift */; };
+		460DE7E92B44F79D00497DE7 /* MainTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460DE7E82B44F79D00497DE7 /* MainTestView.swift */; };
+		460DE7EC2B4502AB00497DE7 /* TestThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460DE7EB2B4502AB00497DE7 /* TestThreeView.swift */; };
+		460DE7EF2B45110500497DE7 /* aksaraInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 460DE7EE2B45110500497DE7 /* aksaraInfo.json */; };
+		460DE7F22B45117C00497DE7 /* AksaraInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460DE7F12B45117C00497DE7 /* AksaraInfoModel.swift */; };
+		460DE7F52B45153A00497DE7 /* JSONUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460DE7F42B45153A00497DE7 /* JSONUtils.swift */; };
+		460E3AA22B6279AA0084C3B9 /* TestThreeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460E3AA12B6279AA0084C3B9 /* TestThreeViewModel.swift */; };
+		462DD57C2B68EC6A003517EB /* TimeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462DD57B2B68EC6A003517EB /* TimeIntervals.swift */; };
+		462DD57F2B6E2600003517EB /* aksaraML.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 462DD57E2B6E2600003517EB /* aksaraML.mlmodel */; };
+		462DD5812B6E30AD003517EB /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462DD5802B6E30AD003517EB /* UIImage.swift */; };
+		462DD5832B6E41E3003517EB /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462DD5822B6E41E3003517EB /* View.swift */; };
+		462DD5852B70B741003517EB /* aksaraCoba1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 462DD5842B70B741003517EB /* aksaraCoba1.mlmodel */; };
+		462DD5872B70BA64003517EB /* aksaraCoba2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 462DD5862B70BA64003517EB /* aksaraCoba2.mlmodel */; };
+		462DD58F2B7368EE003517EB /* MyObjectDetector2.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 462DD58E2B7368EE003517EB /* MyObjectDetector2.mlpackage */; };
+		4642B0CE2B5FA50300BAC87E /* PopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4642B0CD2B5FA50300BAC87E /* PopUp.swift */; };
+		4642B0D12B5FC5CF00BAC87E /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4642B0D02B5FC5CF00BAC87E /* ResultView.swift */; };
+		4642B0D42B5FD00800BAC87E /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4642B0D32B5FD00800BAC87E /* Information.swift */; };
+		4642B0D62B5FD0F900BAC87E /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4642B0D52B5FD0F900BAC87E /* Enum.swift */; };
+		4661A9732B398A490096D990 /* skripsiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661A9722B398A490096D990 /* skripsiApp.swift */; };
+		4661A9752B398A490096D990 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661A9742B398A490096D990 /* ContentView.swift */; };
+		4661A9772B398A4A0096D990 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4661A9762B398A4A0096D990 /* Assets.xcassets */; };
+		4661A97A2B398A4A0096D990 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4661A9792B398A4A0096D990 /* Preview Assets.xcassets */; };
+		4661A97C2B398A4A0096D990 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661A97B2B398A4A0096D990 /* Persistence.swift */; };
+		4661A97F2B398A4A0096D990 /* skripsi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4661A97D2B398A4A0096D990 /* skripsi.xcdatamodeld */; };
+		4661A9872B398AEE0096D990 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661A9862B398AEE0096D990 /* MainView.swift */; };
+		4661A98A2B398B110096D990 /* CardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661A9892B398B110096D990 /* CardComponent.swift */; };
+		4661A9942B398E000096D990 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661A9932B398E000096D990 /* Fonts.swift */; };
+		4661A99A2B3A902D0096D990 /* HANACARAKA.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 4661A9992B3A902D0096D990 /* HANACARAKA.TTF */; };
+		469A81FD2B74B53800368F73 /* MyObjectDetector3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 469A81FC2B74B53800368F73 /* MyObjectDetector3.mlmodel */; };
+		46A1EFBE2B7394E50044CEFF /* TestTwoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A1EFBD2B7394E50044CEFF /* TestTwoViewModel.swift */; };
+		46AD87EE2C38444C001605C8 /* SF-Pro-Rounded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 46AD87ED2C38444C001605C8 /* SF-Pro-Rounded-Regular.otf */; };
+		46AD87F02C384527001605C8 /* SF-Pro-Rounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 46AD87EF2C384527001605C8 /* SF-Pro-Rounded-Bold.otf */; };
+		46BF9D632B590D6A00FD2FFA /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BF9D622B590D6A00FD2FFA /* MainViewModel.swift */; };
+		46BF9D652B590DE000FD2FFA /* InfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BF9D642B590DE000FD2FFA /* InfoViewModel.swift */; };
+		46BF9D692B592E3000FD2FFA /* level1.json in Resources */ = {isa = PBXBuildFile; fileRef = 46BF9D682B592E3000FD2FFA /* level1.json */; };
+		46BF9D6B2B592E9400FD2FFA /* MainTestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BF9D6A2B592E9400FD2FFA /* MainTestViewModel.swift */; };
+		46BF9D6D2B592EF300FD2FFA /* TestLevelOneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BF9D6C2B592EF300FD2FFA /* TestLevelOneModel.swift */; };
+		46BF9D6F2B59341900FD2FFA /* TestOneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BF9D6E2B59341900FD2FFA /* TestOneViewModel.swift */; };
+		46E0A10B2B6105C000A15039 /* NewInfoAksara.json in Resources */ = {isa = PBXBuildFile; fileRef = 46E0A10A2B6105C000A15039 /* NewInfoAksara.json */; };
+		46E0A1122B61135200A15039 /* Ka.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 46E0A10D2B61135200A15039 /* Ka.m4a */; };
+		46E0A1132B61135200A15039 /* Na.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 46E0A10E2B61135200A15039 /* Na.m4a */; };
+		46E0A1142B61135200A15039 /* Ra.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 46E0A10F2B61135200A15039 /* Ra.m4a */; };
+		46E0A1152B61135200A15039 /* Ca.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 46E0A1102B61135200A15039 /* Ca.m4a */; };
+		46E0A1162B61135300A15039 /* Ha.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 46E0A1112B61135200A15039 /* Ha.m4a */; };
+		46E0A11C2B6114CA00A15039 /* La.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 46E0A1172B6114C900A15039 /* La.m4a */; };
+		46E0A11D2B6114CA00A15039 /* Wa.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 46E0A1182B6114C900A15039 /* Wa.m4a */; };
+		46E0A11E2B6114CA00A15039 /* Sa.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 46E0A1192B6114C900A15039 /* Sa.m4a */; };
+		46E0A11F2B6114CA00A15039 /* Ta.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 46E0A11A2B6114C900A15039 /* Ta.m4a */; };
+		46E0A1202B6114CA00A15039 /* Da.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 46E0A11B2B6114CA00A15039 /* Da.m4a */; };
+		46E0A12B2B6116F000A15039 /* Dha.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 46E0A1212B6116F000A15039 /* Dha.m4a */; };
+		46E0A12C2B6116F000A15039 /* Ja.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 46E0A1222B6116F000A15039 /* Ja.m4a */; };
+		46E0A12D2B6116F000A15039 /* Tha.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 46E0A1232B6116F000A15039 /* Tha.m4a */; };
+		46E0A12E2B6116F000A15039 /* Ba.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 46E0A1242B6116F000A15039 /* Ba.m4a */; };
+		46E0A12F2B6116F000A15039 /* Nga.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 46E0A1252B6116F000A15039 /* Nga.m4a */; };
+		46E0A1302B6116F000A15039 /* Ma.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 46E0A1262B6116F000A15039 /* Ma.m4a */; };
+		46E0A1312B6116F000A15039 /* Ga.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 46E0A1272B6116F000A15039 /* Ga.m4a */; };
+		46E0A1322B6116F000A15039 /* Ya.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 46E0A1282B6116F000A15039 /* Ya.m4a */; };
+		46E0A1332B6116F000A15039 /* Nya.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 46E0A1292B6116F000A15039 /* Nya.m4a */; };
+		46E0A1342B6116F000A15039 /* Pa.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 46E0A12A2B6116F000A15039 /* Pa.m4a */; };
+		46E0A1362B6117BA00A15039 /* SoundUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E0A1352B6117BA00A15039 /* SoundUtils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		460DE7DD2B43FACD00497DE7 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		460DE7E02B44087300497DE7 /* TestOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestOneView.swift; sourceTree = "<group>"; };
+		460DE7E32B44F61900497DE7 /* TestTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTwoView.swift; sourceTree = "<group>"; };
+		460DE7E52B44F63700497DE7 /* ChartBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartBar.swift; sourceTree = "<group>"; };
+		460DE7E82B44F79D00497DE7 /* MainTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTestView.swift; sourceTree = "<group>"; };
+		460DE7EB2B4502AB00497DE7 /* TestThreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestThreeView.swift; sourceTree = "<group>"; };
+		460DE7EE2B45110500497DE7 /* aksaraInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = aksaraInfo.json; sourceTree = "<group>"; };
+		460DE7F12B45117C00497DE7 /* AksaraInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AksaraInfoModel.swift; sourceTree = "<group>"; };
+		460DE7F42B45153A00497DE7 /* JSONUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONUtils.swift; sourceTree = "<group>"; };
+		460E3AA12B6279AA0084C3B9 /* TestThreeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestThreeViewModel.swift; sourceTree = "<group>"; };
+		462DD57B2B68EC6A003517EB /* TimeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIntervals.swift; sourceTree = "<group>"; };
+		462DD57E2B6E2600003517EB /* aksaraML.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = aksaraML.mlmodel; sourceTree = "<group>"; };
+		462DD5802B6E30AD003517EB /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		462DD5822B6E41E3003517EB /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		462DD5842B70B741003517EB /* aksaraCoba1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = aksaraCoba1.mlmodel; sourceTree = "<group>"; };
+		462DD5862B70BA64003517EB /* aksaraCoba2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = aksaraCoba2.mlmodel; sourceTree = "<group>"; };
+		462DD58E2B7368EE003517EB /* MyObjectDetector2.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = MyObjectDetector2.mlpackage; sourceTree = "<group>"; };
+		4642B0CD2B5FA50300BAC87E /* PopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUp.swift; sourceTree = "<group>"; };
+		4642B0D02B5FC5CF00BAC87E /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		4642B0D32B5FD00800BAC87E /* Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Information.swift; sourceTree = "<group>"; };
+		4642B0D52B5FD0F900BAC87E /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		4661A96F2B398A490096D990 /* skripsi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skripsi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4661A9722B398A490096D990 /* skripsiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skripsiApp.swift; sourceTree = "<group>"; };
+		4661A9742B398A490096D990 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4661A9762B398A4A0096D990 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4661A9792B398A4A0096D990 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4661A97B2B398A4A0096D990 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		4661A97E2B398A4A0096D990 /* skripsi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = skripsi.xcdatamodel; sourceTree = "<group>"; };
+		4661A9862B398AEE0096D990 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4661A9892B398B110096D990 /* CardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardComponent.swift; sourceTree = "<group>"; };
+		4661A9912B398D060096D990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4661A9932B398E000096D990 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		4661A9992B3A902D0096D990 /* HANACARAKA.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = HANACARAKA.TTF; sourceTree = "<group>"; };
+		469A81FC2B74B53800368F73 /* MyObjectDetector3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyObjectDetector3.mlmodel; sourceTree = "<group>"; };
+		46A1EFBD2B7394E50044CEFF /* TestTwoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTwoViewModel.swift; sourceTree = "<group>"; };
+		46AD87ED2C38444C001605C8 /* SF-Pro-Rounded-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Regular.otf"; sourceTree = "<group>"; };
+		46AD87EF2C384527001605C8 /* SF-Pro-Rounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Bold.otf"; sourceTree = "<group>"; };
+		46BF9D622B590D6A00FD2FFA /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		46BF9D642B590DE000FD2FFA /* InfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewModel.swift; sourceTree = "<group>"; };
+		46BF9D682B592E3000FD2FFA /* level1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = level1.json; sourceTree = "<group>"; };
+		46BF9D6A2B592E9400FD2FFA /* MainTestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTestViewModel.swift; sourceTree = "<group>"; };
+		46BF9D6C2B592EF300FD2FFA /* TestLevelOneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLevelOneModel.swift; sourceTree = "<group>"; };
+		46BF9D6E2B59341900FD2FFA /* TestOneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestOneViewModel.swift; sourceTree = "<group>"; };
+		46E0A10A2B6105C000A15039 /* NewInfoAksara.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NewInfoAksara.json; sourceTree = "<group>"; };
+		46E0A10D2B61135200A15039 /* Ka.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ka.m4a; sourceTree = "<group>"; };
+		46E0A10E2B61135200A15039 /* Na.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Na.m4a; sourceTree = "<group>"; };
+		46E0A10F2B61135200A15039 /* Ra.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ra.m4a; sourceTree = "<group>"; };
+		46E0A1102B61135200A15039 /* Ca.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ca.m4a; sourceTree = "<group>"; };
+		46E0A1112B61135200A15039 /* Ha.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ha.m4a; sourceTree = "<group>"; };
+		46E0A1172B6114C900A15039 /* La.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = La.m4a; sourceTree = "<group>"; };
+		46E0A1182B6114C900A15039 /* Wa.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Wa.m4a; sourceTree = "<group>"; };
+		46E0A1192B6114C900A15039 /* Sa.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sa.m4a; sourceTree = "<group>"; };
+		46E0A11A2B6114C900A15039 /* Ta.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ta.m4a; sourceTree = "<group>"; };
+		46E0A11B2B6114CA00A15039 /* Da.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Da.m4a; sourceTree = "<group>"; };
+		46E0A1212B6116F000A15039 /* Dha.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dha.m4a; sourceTree = "<group>"; };
+		46E0A1222B6116F000A15039 /* Ja.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ja.m4a; sourceTree = "<group>"; };
+		46E0A1232B6116F000A15039 /* Tha.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tha.m4a; sourceTree = "<group>"; };
+		46E0A1242B6116F000A15039 /* Ba.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ba.m4a; sourceTree = "<group>"; };
+		46E0A1252B6116F000A15039 /* Nga.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nga.m4a; sourceTree = "<group>"; };
+		46E0A1262B6116F000A15039 /* Ma.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ma.m4a; sourceTree = "<group>"; };
+		46E0A1272B6116F000A15039 /* Ga.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ga.m4a; sourceTree = "<group>"; };
+		46E0A1282B6116F000A15039 /* Ya.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ya.m4a; sourceTree = "<group>"; };
+		46E0A1292B6116F000A15039 /* Nya.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nya.m4a; sourceTree = "<group>"; };
+		46E0A12A2B6116F000A15039 /* Pa.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pa.m4a; sourceTree = "<group>"; };
+		46E0A1352B6117BA00A15039 /* SoundUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundUtils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4661A96C2B398A490096D990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		460DE7DC2B43FAB600497DE7 /* InfoScreen */ = {
+			isa = PBXGroup;
+			children = (
+				460DE7DD2B43FACD00497DE7 /* InfoView.swift */,
+				46BF9D642B590DE000FD2FFA /* InfoViewModel.swift */,
+			);
+			path = InfoScreen;
+			sourceTree = "<group>";
+		};
+		460DE7DF2B44085500497DE7 /* TestOne */ = {
+			isa = PBXGroup;
+			children = (
+				460DE7E02B44087300497DE7 /* TestOneView.swift */,
+				46BF9D6E2B59341900FD2FFA /* TestOneViewModel.swift */,
+			);
+			path = TestOne;
+			sourceTree = "<group>";
+		};
+		460DE7E22B44F5FE00497DE7 /* TestTwo */ = {
+			isa = PBXGroup;
+			children = (
+				460DE7E32B44F61900497DE7 /* TestTwoView.swift */,
+				46A1EFBD2B7394E50044CEFF /* TestTwoViewModel.swift */,
+			);
+			path = TestTwo;
+			sourceTree = "<group>";
+		};
+		460DE7E72B44F77800497DE7 /* TestScreen */ = {
+			isa = PBXGroup;
+			children = (
+				460DE7EA2B45029400497DE7 /* TestThree */,
+				460DE7E22B44F5FE00497DE7 /* TestTwo */,
+				460DE7DF2B44085500497DE7 /* TestOne */,
+				460DE7E82B44F79D00497DE7 /* MainTestView.swift */,
+				46BF9D6A2B592E9400FD2FFA /* MainTestViewModel.swift */,
+			);
+			path = TestScreen;
+			sourceTree = "<group>";
+		};
+		460DE7EA2B45029400497DE7 /* TestThree */ = {
+			isa = PBXGroup;
+			children = (
+				460DE7EB2B4502AB00497DE7 /* TestThreeView.swift */,
+				460E3AA12B6279AA0084C3B9 /* TestThreeViewModel.swift */,
+			);
+			path = TestThree;
+			sourceTree = "<group>";
+		};
+		460DE7ED2B4510E400497DE7 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				46E0A10A2B6105C000A15039 /* NewInfoAksara.json */,
+				46BF9D682B592E3000FD2FFA /* level1.json */,
+				460DE7EE2B45110500497DE7 /* aksaraInfo.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		460DE7F02B45114000497DE7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				460DE7F12B45117C00497DE7 /* AksaraInfoModel.swift */,
+				46BF9D6C2B592EF300FD2FFA /* TestLevelOneModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		460DE7F32B45152C00497DE7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				460DE7F42B45153A00497DE7 /* JSONUtils.swift */,
+				4642B0D52B5FD0F900BAC87E /* Enum.swift */,
+				46E0A1352B6117BA00A15039 /* SoundUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		462DD57D2B6E25DF003517EB /* CoreML */ = {
+			isa = PBXGroup;
+			children = (
+				469A81FC2B74B53800368F73 /* MyObjectDetector3.mlmodel */,
+				462DD58E2B7368EE003517EB /* MyObjectDetector2.mlpackage */,
+				462DD5862B70BA64003517EB /* aksaraCoba2.mlmodel */,
+				462DD5842B70B741003517EB /* aksaraCoba1.mlmodel */,
+				462DD57E2B6E2600003517EB /* aksaraML.mlmodel */,
+			);
+			path = CoreML;
+			sourceTree = "<group>";
+		};
+		4642B0CF2B5FC5B400BAC87E /* ResultScreen */ = {
+			isa = PBXGroup;
+			children = (
+				4642B0D02B5FC5CF00BAC87E /* ResultView.swift */,
+			);
+			path = ResultScreen;
+			sourceTree = "<group>";
+		};
+		4642B0D22B5FCFF500BAC87E /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				4642B0D32B5FD00800BAC87E /* Information.swift */,
+			);
+			path = Information;
+			sourceTree = "<group>";
+		};
+		4661A9662B398A490096D990 = {
+			isa = PBXGroup;
+			children = (
+				4661A9712B398A490096D990 /* skripsi */,
+				4661A9702B398A490096D990 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4661A9702B398A490096D990 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4661A96F2B398A490096D990 /* skripsi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4661A9712B398A490096D990 /* skripsi */ = {
+			isa = PBXGroup;
+			children = (
+				460DE7F32B45152C00497DE7 /* Utils */,
+				460DE7F02B45114000497DE7 /* Model */,
+				4661A9922B398DDB0096D990 /* Extensions */,
+				4661A98B2B398B9D0096D990 /* Files */,
+				4661A9882B398AF80096D990 /* Component */,
+				4661A9852B398AD50096D990 /* Services */,
+				4661A9722B398A490096D990 /* skripsiApp.swift */,
+				4661A9742B398A490096D990 /* ContentView.swift */,
+				4661A9762B398A4A0096D990 /* Assets.xcassets */,
+				4661A97B2B398A4A0096D990 /* Persistence.swift */,
+				4661A9912B398D060096D990 /* Info.plist */,
+				4661A97D2B398A4A0096D990 /* skripsi.xcdatamodeld */,
+				4661A9782B398A4A0096D990 /* Preview Content */,
+			);
+			path = skripsi;
+			sourceTree = "<group>";
+		};
+		4661A9782B398A4A0096D990 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4661A9792B398A4A0096D990 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4661A9852B398AD50096D990 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4642B0D22B5FCFF500BAC87E /* Information */,
+				4642B0CF2B5FC5B400BAC87E /* ResultScreen */,
+				460DE7E72B44F77800497DE7 /* TestScreen */,
+				460DE7DC2B43FAB600497DE7 /* InfoScreen */,
+				4661A9862B398AEE0096D990 /* MainView.swift */,
+				46BF9D622B590D6A00FD2FFA /* MainViewModel.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4661A9882B398AF80096D990 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				4661A9892B398B110096D990 /* CardComponent.swift */,
+				460DE7E52B44F63700497DE7 /* ChartBar.swift */,
+				4642B0CD2B5FA50300BAC87E /* PopUp.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		4661A98B2B398B9D0096D990 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				462DD57D2B6E25DF003517EB /* CoreML */,
+				46E0A10C2B61133800A15039 /* Sound */,
+				460DE7ED2B4510E400497DE7 /* Json */,
+				4661A98C2B398BA30096D990 /* Font */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		4661A98C2B398BA30096D990 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				46AD87EF2C384527001605C8 /* SF-Pro-Rounded-Bold.otf */,
+				46AD87ED2C38444C001605C8 /* SF-Pro-Rounded-Regular.otf */,
+				4661A9992B3A902D0096D990 /* HANACARAKA.TTF */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		4661A9922B398DDB0096D990 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4661A9932B398E000096D990 /* Fonts.swift */,
+				462DD57B2B68EC6A003517EB /* TimeIntervals.swift */,
+				462DD5802B6E30AD003517EB /* UIImage.swift */,
+				462DD5822B6E41E3003517EB /* View.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		46E0A10C2B61133800A15039 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				46E0A1242B6116F000A15039 /* Ba.m4a */,
+				46E0A1212B6116F000A15039 /* Dha.m4a */,
+				46E0A1272B6116F000A15039 /* Ga.m4a */,
+				46E0A1222B6116F000A15039 /* Ja.m4a */,
+				46E0A1262B6116F000A15039 /* Ma.m4a */,
+				46E0A1252B6116F000A15039 /* Nga.m4a */,
+				46E0A1292B6116F000A15039 /* Nya.m4a */,
+				46E0A12A2B6116F000A15039 /* Pa.m4a */,
+				46E0A1232B6116F000A15039 /* Tha.m4a */,
+				46E0A1282B6116F000A15039 /* Ya.m4a */,
+				46E0A11B2B6114CA00A15039 /* Da.m4a */,
+				46E0A1172B6114C900A15039 /* La.m4a */,
+				46E0A1192B6114C900A15039 /* Sa.m4a */,
+				46E0A11A2B6114C900A15039 /* Ta.m4a */,
+				46E0A1182B6114C900A15039 /* Wa.m4a */,
+				46E0A1102B61135200A15039 /* Ca.m4a */,
+				46E0A1112B61135200A15039 /* Ha.m4a */,
+				46E0A10D2B61135200A15039 /* Ka.m4a */,
+				46E0A10E2B61135200A15039 /* Na.m4a */,
+				46E0A10F2B61135200A15039 /* Ra.m4a */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4661A96E2B398A490096D990 /* skripsi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4661A9822B398A4A0096D990 /* Build configuration list for PBXNativeTarget "skripsi" */;
+			buildPhases = (
+				4661A96B2B398A490096D990 /* Sources */,
+				4661A96C2B398A490096D990 /* Frameworks */,
+				4661A96D2B398A490096D990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = skripsi;
+			productName = skripsi;
+			productReference = 4661A96F2B398A490096D990 /* skripsi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4661A9672B398A490096D990 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4661A96E2B398A490096D990 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 4661A96A2B398A490096D990 /* Build configuration list for PBXProject "skripsi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4661A9662B398A490096D990;
+			productRefGroup = 4661A9702B398A490096D990 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4661A96E2B398A490096D990 /* skripsi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4661A96D2B398A490096D990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E0A11D2B6114CA00A15039 /* Wa.m4a in Resources */,
+				46E0A1152B61135200A15039 /* Ca.m4a in Resources */,
+				46E0A11E2B6114CA00A15039 /* Sa.m4a in Resources */,
+				46E0A1312B6116F000A15039 /* Ga.m4a in Resources */,
+				46E0A1332B6116F000A15039 /* Nya.m4a in Resources */,
+				46AD87F02C384527001605C8 /* SF-Pro-Rounded-Bold.otf in Resources */,
+				4661A97A2B398A4A0096D990 /* Preview Assets.xcassets in Resources */,
+				46E0A1302B6116F000A15039 /* Ma.m4a in Resources */,
+				4661A9772B398A4A0096D990 /* Assets.xcassets in Resources */,
+				46E0A12E2B6116F000A15039 /* Ba.m4a in Resources */,
+				46E0A11F2B6114CA00A15039 /* Ta.m4a in Resources */,
+				46E0A11C2B6114CA00A15039 /* La.m4a in Resources */,
+				46E0A12C2B6116F000A15039 /* Ja.m4a in Resources */,
+				46E0A12D2B6116F000A15039 /* Tha.m4a in Resources */,
+				46E0A1342B6116F000A15039 /* Pa.m4a in Resources */,
+				460DE7EF2B45110500497DE7 /* aksaraInfo.json in Resources */,
+				46E0A1142B61135200A15039 /* Ra.m4a in Resources */,
+				46E0A1122B61135200A15039 /* Ka.m4a in Resources */,
+				46E0A10B2B6105C000A15039 /* NewInfoAksara.json in Resources */,
+				46E0A1322B6116F000A15039 /* Ya.m4a in Resources */,
+				46E0A1202B6114CA00A15039 /* Da.m4a in Resources */,
+				46E0A12F2B6116F000A15039 /* Nga.m4a in Resources */,
+				46E0A1132B61135200A15039 /* Na.m4a in Resources */,
+				46BF9D692B592E3000FD2FFA /* level1.json in Resources */,
+				46AD87EE2C38444C001605C8 /* SF-Pro-Rounded-Regular.otf in Resources */,
+				46E0A1162B61135300A15039 /* Ha.m4a in Resources */,
+				46E0A12B2B6116F000A15039 /* Dha.m4a in Resources */,
+				4661A99A2B3A902D0096D990 /* HANACARAKA.TTF in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4661A96B2B398A490096D990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460DE7DE2B43FACD00497DE7 /* InfoView.swift in Sources */,
+				46BF9D652B590DE000FD2FFA /* InfoViewModel.swift in Sources */,
+				462DD5832B6E41E3003517EB /* View.swift in Sources */,
+				462DD5852B70B741003517EB /* aksaraCoba1.mlmodel in Sources */,
+				4642B0D62B5FD0F900BAC87E /* Enum.swift in Sources */,
+				462DD5872B70BA64003517EB /* aksaraCoba2.mlmodel in Sources */,
+				469A81FD2B74B53800368F73 /* MyObjectDetector3.mlmodel in Sources */,
+				460E3AA22B6279AA0084C3B9 /* TestThreeViewModel.swift in Sources */,
+				460DE7E92B44F79D00497DE7 /* MainTestView.swift in Sources */,
+				460DE7F22B45117C00497DE7 /* AksaraInfoModel.swift in Sources */,
+				462DD58F2B7368EE003517EB /* MyObjectDetector2.mlpackage in Sources */,
+				460DE7E42B44F61900497DE7 /* TestTwoView.swift in Sources */,
+				4661A97C2B398A4A0096D990 /* Persistence.swift in Sources */,
+				462DD57C2B68EC6A003517EB /* TimeIntervals.swift in Sources */,
+				4661A97F2B398A4A0096D990 /* skripsi.xcdatamodeld in Sources */,
+				46BF9D6B2B592E9400FD2FFA /* MainTestViewModel.swift in Sources */,
+				4661A9942B398E000096D990 /* Fonts.swift in Sources */,
+				460DE7F52B45153A00497DE7 /* JSONUtils.swift in Sources */,
+				46A1EFBE2B7394E50044CEFF /* TestTwoViewModel.swift in Sources */,
+				4642B0CE2B5FA50300BAC87E /* PopUp.swift in Sources */,
+				460DE7EC2B4502AB00497DE7 /* TestThreeView.swift in Sources */,
+				4661A9752B398A490096D990 /* ContentView.swift in Sources */,
+				4642B0D12B5FC5CF00BAC87E /* ResultView.swift in Sources */,
+				4661A98A2B398B110096D990 /* CardComponent.swift in Sources */,
+				4661A9872B398AEE0096D990 /* MainView.swift in Sources */,
+				462DD5812B6E30AD003517EB /* UIImage.swift in Sources */,
+				4661A9732B398A490096D990 /* skripsiApp.swift in Sources */,
+				460DE7E62B44F63700497DE7 /* ChartBar.swift in Sources */,
+				460DE7E12B44087300497DE7 /* TestOneView.swift in Sources */,
+				46BF9D6D2B592EF300FD2FFA /* TestLevelOneModel.swift in Sources */,
+				4642B0D42B5FD00800BAC87E /* Information.swift in Sources */,
+				462DD57F2B6E2600003517EB /* aksaraML.mlmodel in Sources */,
+				46BF9D632B590D6A00FD2FFA /* MainViewModel.swift in Sources */,
+				46BF9D6F2B59341900FD2FFA /* TestOneViewModel.swift in Sources */,
+				46E0A1362B6117BA00A15039 /* SoundUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4661A9802B398A4A0096D990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4661A9812B398A4A0096D990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4661A9832B398A4A0096D990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"skripsi/Preview Content\"";
+				DEVELOPMENT_TEAM = 365WJYN4LU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = skripsi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Jago Aksara";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appledeveloperacademy.www.skripsi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4661A9842B398A4A0096D990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"skripsi/Preview Content\"";
+				DEVELOPMENT_TEAM = 365WJYN4LU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = skripsi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Jago Aksara";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appledeveloperacademy.www.skripsi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4661A96A2B398A490096D990 /* Build configuration list for PBXProject "skripsi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4661A9802B398A4A0096D990 /* Debug */,
+				4661A9812B398A4A0096D990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4661A9822B398A4A0096D990 /* Build configuration list for PBXNativeTarget "skripsi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4661A9832B398A4A0096D990 /* Debug */,
+				4661A9842B398A4A0096D990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4661A97D2B398A4A0096D990 /* skripsi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4661A97E2B398A4A0096D990 /* skripsi.xcdatamodel */,
+			);
+			currentVersion = 4661A97E2B398A4A0096D990 /* skripsi.xcdatamodel */;
+			path = skripsi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4661A9672B398A490096D990 /* Project object */;
+}
